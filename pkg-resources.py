@@ -1,7 +1,7 @@
 import pkg_resources
 
 # Carregar as bibliotecas do arquivo requirements.txt
-with open("requirements.txt", "r") as file:
+with open("codebase/bot_fii/requirements.txt", "r") as file:
     required_packages = file.read().splitlines()
 
 # Verificar se as bibliotecas estão instaladas
